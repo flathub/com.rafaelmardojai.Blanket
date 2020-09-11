@@ -9,7 +9,8 @@
         "--device=dri",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--socket=pulseaudio"
+        "--socket=pulseaudio",
+        "--own-name=org.mpris.MediaPlayer2.Blanket"
     ],
     "cleanup" : [
         "/include",
@@ -41,8 +42,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "0.90.0",
-                    "commit" : "c7aaf6f4f50b64ee55fcfee84000e9525fc5f93a"
+                    "tag" : "1.0.0",
+                    "commit" : "94313c206258860b2428712e7ece1d02c5177857"
                 }
             ]
         },
@@ -54,8 +55,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/rafaelmardojai/blanket.git",
-                    "tag" : "0.2.0",
-                    "commit" : "9e93d3f50b66279c6b92692f41de1236bfe53426"
+                    "tag" : "0.3.0",
+                    "commit" : "0418455f92a08baf867e1e08554845d6ce8ef28d"
                 }
             ]
         }
