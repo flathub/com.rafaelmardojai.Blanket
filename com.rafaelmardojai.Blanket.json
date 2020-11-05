@@ -57,6 +57,10 @@
                     "url" : "https://github.com/rafaelmardojai/blanket.git",
                     "tag" : "0.3.1",
                     "commit" : "7fa88f027b38ea700f5e8af487149f46200d0dba"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "data-List-compatible-form-factors.patch"
                 }
             ]
         }
