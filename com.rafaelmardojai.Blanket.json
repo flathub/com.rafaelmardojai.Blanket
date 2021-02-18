@@ -1,7 +1,7 @@
 {
     "app-id" : "com.rafaelmardojai.Blanket",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.36",
+    "runtime-version" : "3.38",
     "sdk" : "org.gnome.Sdk",
     "command" : "blanket",
     "finish-args" : [
@@ -42,8 +42,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "1.0.0",
-                    "commit" : "94313c206258860b2428712e7ece1d02c5177857"
+                    "tag" : "1.0.3",
+                    "commit" : "7126d2e8da9dcdeb5751e60ff6a74930804f9637"
                 }
             ]
         },
