@@ -1,7 +1,7 @@
 {
     "app-id" : "com.rafaelmardojai.Blanket",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.38",
+    "runtime-version" : "40",
     "sdk" : "org.gnome.Sdk",
     "command" : "blanket",
     "finish-args" : [
@@ -25,29 +25,6 @@
     ],
     "modules" : [
         {
-            "name" : "libhandy",
-            "buildsystem" : "meson",
-            "config-opts" : [
-                "-Dgtk_doc=false",
-                "-Dtests=false",
-                "-Dexamples=false",
-                "-Dvapi=false",
-                "-Dglade_catalog=disabled"
-            ],
-            "cleanup" : [
-                "/include",
-                "/lib/pkgconfig"
-            ],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "1.0.3",
-                    "commit" : "7126d2e8da9dcdeb5751e60ff6a74930804f9637"
-                }
-            ]
-        },
-        {
             "name" : "blanket",
             "builddir" : true,
             "buildsystem" : "meson",
@@ -55,12 +32,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/rafaelmardojai/blanket.git",
-                    "tag" : "0.3.1",
-                    "commit" : "7fa88f027b38ea700f5e8af487149f46200d0dba"
-                },
-                {
-                    "type" : "patch",
-                    "path" : "data-List-compatible-form-factors.patch"
+                    "tag" : "0.4.0",
+                    "commit" : "e5351f715e5211ff8cb4bc69a62fac51649ee36e"
                 }
             ]
         }
