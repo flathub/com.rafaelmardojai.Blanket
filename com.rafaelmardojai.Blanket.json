@@ -32,8 +32,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/rafaelmardojai/blanket.git",
-                    "tag" : "0.4.0",
-                    "commit" : "e5351f715e5211ff8cb4bc69a62fac51649ee36e"
+                    "tag" : "0.4.1",
+                    "commit" : "9c6d3b80a6e3dcbbb26f0a3108fee6d35e27d469"
                 }
             ]
         }
