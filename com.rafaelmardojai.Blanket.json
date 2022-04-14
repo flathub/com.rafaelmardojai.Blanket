@@ -1,7 +1,7 @@
 {
     "app-id" : "com.rafaelmardojai.Blanket",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "41",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "blanket",
     "finish-args" : [
@@ -32,8 +32,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/rafaelmardojai/blanket.git",
-                    "tag" : "0.5.0",
-                    "commit" : "b28f0e4e9500fb1c41c8aa81e0ca3e724f6c2f62"
+                    "tag" : "0.6.0",
+                    "commit" : "ad189af8e4e0fbbafdf3e896a71c889179a3cf6d"
                 }
             ]
         }
