@@ -27,12 +27,13 @@
         {
             "name": "blueprint",
             "buildsystem": "meson",
+            "cleanup": ["*"],
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.16.0",
-                    "commit": "04ef0944db56ab01307a29aaa7303df6067cb3c0"
+                    "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler",
+                    "tag": "0.18.0",
+                    "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
                 }
             ]
         },
@@ -44,8 +45,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/rafaelmardojai/blanket.git",
-                    "tag" : "0.7.0",
-                    "commit" : "e70701359d19b87d99029495b6983eab9c5bdf9b"
+                    "tag" : "0.8.0",
+                    "commit" : "a961c1faeab69a61605b8733692b709ab5d2f09f"
                 }
             ]
         }
