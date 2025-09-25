@@ -1,7 +1,7 @@
 {
     "app-id" : "com.rafaelmardojai.Blanket",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "blanket",
     "finish-args" : [
@@ -24,19 +24,6 @@
         "*.a"
     ],
     "modules" : [
-        {
-            "name": "blueprint",
-            "buildsystem": "meson",
-            "cleanup": ["*"],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler",
-                    "tag": "0.18.0",
-                    "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
-                }
-            ]
-        },
         {
             "name" : "blanket",
             "builddir" : true,
